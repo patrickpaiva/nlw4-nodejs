@@ -5,7 +5,7 @@ export class CreateSurveysUsers1614263304940 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
       new Table({
-        name: 'surveus_users',
+        name: 'surveys_users',
         columns: [
           {
             name: 'id',

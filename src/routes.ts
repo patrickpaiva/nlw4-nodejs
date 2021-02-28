@@ -3,7 +3,7 @@ import { UserController } from './controllers/UserController'
 import { SurveysController } from './controllers/SurveysController'
 import { SendMailController } from './controllers/SendMailController'
 import { AnswerController } from './controllers/AnswerController'
-import { NpsController } from './controllers/NPSController'
+import { NpsController } from './controllers/NpsController'
 
 const router = Router()
 
